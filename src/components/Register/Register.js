@@ -25,6 +25,9 @@ const Register = () => {
         <br />
         <input type="submit" value="Register" />
       </form>
+      <div style={{ margin: "80px" }}>
+        <button>Google Sing Up</button>
+      </div>
     </div>
   );
 };

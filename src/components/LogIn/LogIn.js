@@ -23,6 +23,9 @@ const LogIn = () => {
         <br />
         <input type="submit" value="Log In" />
       </form>
+      <div style={{ margin: "80px" }}>
+        <button>Google Sing In</button>
+      </div>
     </div>
   );
 };
