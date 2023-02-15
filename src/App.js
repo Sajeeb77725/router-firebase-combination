@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import LogIn from "./components/LogIn/LogIn";
+import Register from "./components/Register/Register";
 
 function App() {
   return (
@@ -14,6 +15,9 @@ function App() {
         </Route>
         <Route path="/login" element={<LogIn></LogIn>}>
           Log In
+        </Route>
+        <Route path="/register" element={<Register></Register>}>
+          Register
         </Route>
       </Routes>
     </div>
