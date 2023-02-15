@@ -1,0 +1,13 @@
+.header nav{
+    margin-top: 20px;
+}
+.header nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: rgb(92, 66, 195);
+}
+
+.header nav a:hover{
+    color: blueviolet;
+    font-size: large;
+}
