@@ -3,6 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import Home from "./components/Home/Home";
 import LogIn from "./components/LogIn/LogIn";
+import Orders from "./components/Orders/Orders";
 import Register from "./components/Register/Register";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/login" element={<LogIn></LogIn>}>
           Log In
         </Route>
+        <Route path="/orders" element={<Orders></Orders>}></Route>
         <Route path="/register" element={<Register></Register>}>
           Register
         </Route>
