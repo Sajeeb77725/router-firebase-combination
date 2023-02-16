@@ -22,6 +22,7 @@ const Header = () => {
         ) : (
           <Link to="/login">Log In</Link>
         )}
+        <Link to="/about">About</Link>
       </nav>
     </div>
   );
